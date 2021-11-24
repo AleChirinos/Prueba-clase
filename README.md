@@ -1,2 +1,2 @@
 # Prueba-clase
-Uso de pull reques
+Uso de pull request
