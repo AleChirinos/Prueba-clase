@@ -6,5 +6,7 @@ jobs:
     name: Primera Tarea
     runs-on: ubuntu-latest
     steps:
-      - name: Primer Paso
-        run: echo "Hola Clase"
+      - name: Descargar Codigo
+        uses: actions/checkout@v2
+      - name: Listado de archivos
+        run: ls 
